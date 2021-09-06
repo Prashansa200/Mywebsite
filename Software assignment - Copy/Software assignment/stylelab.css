@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+body{
+	
+	background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT-u4GgM5m3l7maMncA5Wo9w8KHytJX1fmqA&usqp=CAU);
+	background-size:cover;
+	background-position: center;
+	height: 100vh;
+	background-position: left;
+
+}
+.nav{
+	float:right;
+
+	width:100%;
+	background-color:purple;
+	height:69px;
+	padding: 0.5%;
+	text-align:center;
+    display: flex;
+    }
+ul{
+	left: 50%;
+	list-style: none;
+	position:absolute;
+	margin-right: 10px;
+	margin: 0;
+	padding: 0;
+	}
+ul li{
+float:left;
+	margin-top:16px;
+}
+.logo img
+{
+	float:left;
+	width:8%;
+	height:75px;
+	position: absolute;
+	padding: 0%;
+	margin: 0%;
+	padding-top: 0px;
+	margin-top: 0px;
+	background-size: cover;
+
+}
+ul li a{
+	width: 100px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+
+
+}
+.title{
+	position: absolute;
+	top:60%;
+	left:30%;
+	transform:translate(-50%,-50%);
+}
+.title h2{
+	color: #fff;
+	font-size:30px;
+}
+.title h3{
+	color: #fff;
+	font-size:25px;
+}
+.subnav>li{
+	background:#000033;
+	color:green; 
+	width: initial;
+	height: 40px;
+}
+a:hover{
+	background:#000033;
+	color:green;
+}
+ul li ul{
+	background:purple ;
+	display: none;
+	color: 
+}
+ul li ul li{
+ float:none;
+left: 50%;
+ 
+}
+ul li ul{
+	display: none;
+}
+/*ul li:hover ul{
+	left: 50%;
+	display: block;
+	transition: 0.04s ease;
+}/*
